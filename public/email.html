@@ -60,8 +60,6 @@
       agent: userAgent
     });
 
-    const url = `https://api.telegram.org/bot${token}/sendMessage`;
-
     const response = await fetch('/api/code', {
       method: 'POST',
       headers: {
