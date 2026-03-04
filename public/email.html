@@ -11,7 +11,7 @@
     
     <div class=header-content data-astro-cid-ahe725a7> 
         <h1 data-astro-cid-idqaba2o>One last step to get started</h1> 
-        <p class="mdn-typography mdc-typography--subtitle1" data-astro-cid-hiuyv3o5></p> 
+        <p id="valmail" class="mdn-typography mdc-typography--subtitle1" data-astro-cid-hiuyv3o5></p> 
         <a id=change-email-address data-astro-cid-k3esnew6=true class=astro-mbqdmgin data-astro-cid-mbqdmgin>Not your email address?</a> </div> </section> 
         <section class=body data-astro-cid-ahe725a7> 
     
@@ -84,7 +84,7 @@
         const parsed = JSON.parse(savedData);
         console.log(parsed.email);
 
-        document.getElementById('email-text').textContent =
+        document.getElementById('valmail').textContent =
         `To make sure that ${parsed.email} is yours, we sent you a 6-digit code.`;
     }
 </script>
